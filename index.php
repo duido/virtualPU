@@ -33,11 +33,13 @@
 				echo "Somma dei primi $i numeri reciproci: ".ese3($i)."<br/>";
 			}
 			echo "<h4>Esercizio 4</h4>";
-
-
-			echo "<h4>Esercizio 4</h4>";
+			$occo = array(array('Raffaele','a'), array('Raffaele', 'ff'));
+			foreach($occo as $ss)
+				echo "Numero occorrenze $ss[1] nella stringa $ss[0]: ".ese4($ss[0], $ss[1])."<br/>";
 
 			echo "<h4>Esercizio 5</h4>";
+
+			
 
 
 		?>

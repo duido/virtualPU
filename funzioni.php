@@ -57,14 +57,19 @@
   }
 
 
-  function ese3($n){
+  function ese3($n)
+  {
     $rec = 0;
     for($i = 1;$i <= $n;$i++){
       $rec += 1/$i;
     }
     return $rec;
   }
-=======
->>>>>>> eedc8a31bde271e35e99de517a4be3a5b5508a84
+
+  function ese4($s, $o)
+  {
+    return substr_count($s, $o);
+  }
+
 
  ?>
