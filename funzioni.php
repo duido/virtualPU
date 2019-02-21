@@ -46,7 +46,6 @@
   function ese2($a)
   {
     $anni = [];
-
     for($i = 1;$i < 101;$i++){
       if(($a % $i) == 0){
         $anni[] += ($a + $i);
@@ -69,6 +68,11 @@
   function ese4($s, $o)
   {
     return substr_count($s, $o);
+  }
+
+  function ese5($s, $i, $f)
+  {
+    return stristr(substr($s, strpos($s,$i) + 1), $f, true);
   }
 
 

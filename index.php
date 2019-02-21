@@ -38,8 +38,9 @@
 				echo "Numero occorrenze $ss[1] nella stringa $ss[0]: ".ese4($ss[0], $ss[1])."<br/>";
 
 			echo "<h4>Esercizio 5</h4>";
+			$s = "una@bella&stringa";
+			echo "Estrai da \"$s\": ".ese5($s, "@", "&");
 
-			
 
 
 		?>
