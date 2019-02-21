@@ -56,5 +56,12 @@
     return $anni;
   }
 
+  function ese3($n){
+    $rec = 0;
+    for($i = 1;$i <= $n;$i++){
+      $rec += 1/$i;
+    }
+    return $rec;
+  }
 
  ?>
