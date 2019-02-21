@@ -43,5 +43,18 @@
     return $giorni;
   }
 
+  function ese2($a)
+  {
+    $anni = [];
+
+    for($i = 1;$i < 101;$i++){
+      if(($a % $i) == 0){
+        $anni[] += ($a + $i);
+      }
+    }
+
+    return $anni;
+  }
+
 
  ?>
