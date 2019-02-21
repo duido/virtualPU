@@ -56,7 +56,7 @@
     return $anni;
   }
 
-<<<<<<< HEAD
+
   function ese3($n){
     $rec = 0;
     for($i = 1;$i <= $n;$i++){

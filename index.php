@@ -27,16 +27,16 @@
 				echo "<br/>";
 			}
 			echo "<h4>Esercizio 3</h4>";
-<<<<<<< HEAD
+
 			$num = array(1,2,4,7);
 			foreach($num as $i){
 				echo "Somma dei primi $i numeri reciproci: ".ese3($i)."<br/>";
 			}
 			echo "<h4>Esercizio 4</h4>";
-			
-=======
+
+
 			echo "<h4>Esercizio 4</h4>";
->>>>>>> eedc8a31bde271e35e99de517a4be3a5b5508a84
+
 			echo "<h4>Esercizio 5</h4>";
 
 
